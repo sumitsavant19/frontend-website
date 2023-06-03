@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style> 
+
+    *{ 
+        margin:0px;
+        padding:0px;
+    }
+
+    .parent{ 
+
+        width:100vw;
+        height:100px;
+        border:2px solid white;
+        display: flex;
+        justify-content: space-between;
+        
+
+    }
+
+    .child{ 
+
+        width:100px;
+        height:100px;
+        border: 2px solid white;
+        display: flex;
+        justify-content: start;
+        align-items: end;
+    }
+    
+
+    .secondchild{ 
+
+        display: flex;
+        width:400px;
+        height:100px;
+        border: 2px solid white;
+        justify-content: space-between;
+        align-items: end;
+        color: gray;
+        
+    }
+
+
+    
+
+    .content{ 
+
+        display: flex;
+        flex-direction: row;
+        width: 100vw;
+        height:500px;
+        border: 2px solid black;
+        margin-top: 2%;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        
+        
+        
+    }
+
+
+    .mixedcolor img{ 
+
+        width:72vw;
+        height:300px;
+        border: 2px solid black;
+        
+    }
+
+    .about{ 
+
+        width:25vw;
+        height:500px;
+        border:2px solid black;
+        display: flex;
+        justify-content:center;
+        flex-wrap: wrap;
+        
+       
+        
+    }
+
+    .firstpart{ 
+
+        width: 20vw;
+        height:150px;
+        border: 2px solid black;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        
+    
+    }
+    
+
+    .new{ 
+
+        justify-content: center;
+        align-items: end;
+    }
+
+    .aboutgas{ 
+
+        width: 260px;
+        height:50px;
+        border: 2px solid black;
+        
+    }
+
+    .hr{
+
+        width: 10px;
+        height:10px;
+        border: 2px solid black;
+    }
+    .midpart{ 
+
+        width:50vw;
+        height:50px;
+        border: 2px solid black;
+        
+    }
+
+    .hr{ 
+
+        width: 20vw;
+        height: 1px;
+        border: 0.5px solid red;
+        color: red;
+    }
+
+    .secondpart{
+
+        width:100px;
+        height:100px;
+        border:2px solid black ;
+    }
+
+    .thirdhead{ 
+
+        
+        width:100px;
+        height:100px;
+        border:2px solid black ;
+    }
+
+
+
+    </style>
+</head>
+<body>
+    <div class="parent"> 
+        <div class="child"> 
+            <div class="w"><h1>W.</h1></div>
+        </div>
+    
+        <div class="secondchild"> 
+            <div class="home">Home</div>
+            <div class="new">New</div>
+            <div class="popular">Popular</div>
+            <div class="trending">Trending</div>
+            <div class="categories">Categories</div>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="mixedcolor"> 
+            <img src="image-web-3-desktop.jpg">
+        </div>
+
+        <div class="about">
+            
+            <div class="firstpart"> 
+            <div class="new"> <h1> New </h1> </div>
+            <div class="secondline"> <h3> Hydrogen  VS Electric Cars </h3></div>
+            <div class="aboutgas"> <p> Will hydrogen-fueled cars ever catch up to EVs?</p></div>
+            <div class="hr"> <hr> </div>
+            </div>
+
+            <div class="secondpart"> 
+                <div class="head"> </div>
+            </div>
+
+            <div class="thirdpart"> 
+                <div class="thirdhead"> </div>
+            </div>
+
+
+
+        </div>
+
+
+        <div class="midpart"> 
+            <div class="headline"> </div>
+        </div>
+    </div>
+
+
+
+
+
+        
+
+    
+    
+</body>
+</html>
